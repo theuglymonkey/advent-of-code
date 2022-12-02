@@ -14,5 +14,6 @@ with open('elfs.txt') as fp:
         reduced = sum(to_ints)
         reducedList.append(reduced)
     maxV = max(reducedList)
-    print(maxV)
+    reducedList.sort(reverse=True)
+    print(reducedList[0] + reducedList[1] + reducedList[2])
     
