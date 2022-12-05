@@ -31,9 +31,6 @@ fn main() {
         let r2_0 : i32 = r2[0].parse().expect("Failed to parse integer");
         let r2_1 : i32 = r2[1].parse().expect("Failed to parse integer");
 
-        let range1 = (r1_0)..(r1_1);
-        let range2 = (r2_0)..(r2_1);
-
         if (r2_0 >= r1_0 && r2_0 <= r1_1) && (r2_1 >= r1_0 && r2_1 <= r1_1) || (r1_0 >= r2_0 && r1_0 <= r2_1) && (r1_1 >= r2_0 && r1_1 <= r2_1) {
             total += 1;
         }
