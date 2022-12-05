@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program":  "${workspaceRoot}/target/debug/day3",
+            "program":  "${workspaceRoot}/target/debug/day4",
             "args": [],
             "cwd": "${workspaceRoot}",
             "sourceLanguages": [
